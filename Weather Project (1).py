@@ -23,31 +23,31 @@ df.info()
 
 # In[18]:
 
-
+# describes the table 
 df.describe()
 
 
 # In[19]:
 
-
+#prints number of rows and columns
 df.shape
 
 
 # In[20]:
 
-
+#prints the column names
 df.columns
 
 
 # In[21]:
 
-
+#Index range
 df.index
 
 
 # In[22]:
 
-
+#type of each column
 df.dtypes
 
 
@@ -59,27 +59,26 @@ df["Weather"].unique()
 
 # In[25]:
 
-
+#finds uniques values
 df.nunique()
 
 
 # In[26]:
 
-
+#count of rows
 df.count()
 
 
 # In[31]:
 
-
+#count the different values in the rescpective column
 df["Weather"].value_counts()
 
 
 # In[32]:
 
 
-#findthe unique values of windspeed
-df.head(2)
+#find the unique values of windspeed
 
 
 # In[35]:
